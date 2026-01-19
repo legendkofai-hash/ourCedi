@@ -1,0 +1,41 @@
+@media  screen and (max-width: 320px){
+    ul{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation css*/
+a{
+   text-decoration: none;
+   color: black;
+    font-weight: bolder;
+}
+a:active{
+    color: #ffca42;
+}
+a:hover{
+    cursor: pointer;
+    color: #38B000;
+}
+li{
+    margin-inline: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero{
+  
+}
+
