@@ -16,8 +16,10 @@
       <section style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-start; align-items: center;">
          <h2 class="logo" style="font-size: 35px; margin: 0px;color: #FFD100; justify-content: center; align-items: center; color: #FFD100; text-shadow:4px 4px 2px#000000; text-transform: none;">ourCedi</h2>
 
-        <video src="images/3986897009-preview.mp4" autoplay loop muted width="100px" height="50px">Exhibiting the Rich Heritage of Ghana</video>
+        <video class="logo-flag" src="images/3986897009-preview.mp4" autoplay loop muted width="100px" height="50px">Exhibiting the Rich Heritage of Ghana</video>
       </section>
+       
+
         <ul class="navigation" style="list-style: none; display: flex; flex-wrap: wrap; gap: 10px; font-size: 16px; justify-content: center; align-items: center; margin: auto;">
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
@@ -28,34 +30,39 @@
 
         <ul class="navigation1" style="display: flex; gap: 5px; flex-wrap: wrap; list-style: none; padding-left: 2px; position: relative; left: 50px;">
            <li><a href="contactus.html">Contact</a></li>
-           <li><a href="signup.html" style="color: #ff0808;">Signup</a></li>
+           <li><a href="Signup.html" style="color: #ff0808;">Signup</a></li>
         </ul>
          
          <div class="hamburger" style="display: none; flex-direction: column; cursor: pointer; position: relative; left: 50px;">
-            <span style="height: 3px; width: 25px; background-color: #111111; margin-bottom: 4px;"> </span>
             <span style="height: 3px; width: 25px; background-color: #111111; margin-bottom: 4px;"></span>
-            <span style="height: 3px; width: 25px; background-color: #111111;"></span>
+           
     </nav>
    </div>
-           <br><br><br><br><br>
-          <div style="text-align: center; max-width: 800px; margin: 0 auto; padding: 20px; font-family: 'Poppins', sans-serif; color: #111111; font-family: 'Poppins', sans-serif; ">
-   <h3>Forex Services</h3>
-   <div style=" display: inline-block; width: 50px; height: 2px;  margin: 10px auto;"></div>
-      <p style="width: 80%; margin: 0 auto; text-align: left; justify-items: self-start;">We offer a range of Forex services to help you navigate the complexities of foreign exchange trading. Our expert team is here to assist you with:</p>
-   <ul style="list-style: none; padding: 0;">
-       <li>Currency Exchange</li>
-       <li>Forex Trading</li>
-       <li>Market Analysis</li>
-       <li>Risk Management</li>
-   </ul>
-        <p>Contact us today to learn more about our Forex services and how we can help you succeed in the global market.</p></div>
+   <br><br><br><br>
 
-   <footer>
-    <div style="background-color: #111111; color: #FFD100; text-align: center; padding: 20px; font-family: 'Poppins', sans-serif;">
-      <p>&copy; 2026 OurCedi. All rights reserved.</p>
-      <h2>Our Heritage, Our Future </h2>
-      <p>Preserving the legacy of the Cedi for generations to come.</p>
-    </div>
-      </footer>
-   </body>
+   <div style="padding: 20px; margin-top: 80px; margin-bottom: 80px; max-width: 600px; margin-left: auto; margin-right: auto; background-color: none; box-shadow: 0px 0px 10px 2px #f6f1f1 ; border-radius: 10px; font-family: 'Poppins', sans-serif; color: #111111; border: 1px solid #f3ea3d;">
+       <h1 style="font-size: 24px; margin-bottom: 10px;">Contact Us</h1>
+       <form action="submit_contact.php" method="POST">
+           <label for="name" style="display: block; margin-bottom: 5px;">Name:</label>
+           <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+           <label for="email" style="display: block; margin-bottom: 5px;">Email:</label>
+           <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+           <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+           <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
+
+           <button type="submit" style="background-color: #FFD100; color: #111111; padding: 10px 15px; border: none; cursor: pointer;">Send Message</button>
+       </form>
+   </div>
+   <footer style="background-color: #f8f8f8; padding: 20px; text-align: center; border-top: 1px solid #f3ea3d;">
+       <p style="margin: 0;">&copy; 2023 ourCedi. All rights reserved.</p>
+       <p style="margin: 0;">Follow us on:
+        <br><br><br>
+           <a href="ourcedi" style="color: #111111; text-decoration: none;">Facebook</a>,
+           <a href="ourcedi" style="color: #111111; text-decoration: none;">Twitter</a>,
+           <a href="ourcedi" style="color: #111111; text-decoration: none;">Instagram</a>
+       </p>
+   </footer>
+</body>
 </html>

@@ -1,15 +1,45 @@
-@media screen and (max-width: 420px){
+@media screen and (max-width: 770px){
     ul li{
         display: none;
     }
-    
+    /* hamburger menu */
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+}
+.hamburger span{
+    height: 3px;
+    width: 25px;
+    background-color: #111111;
+    margin-bottom: 4px;
 }
 
+.hamburger:hover span{
+    background-color: #38B000;
+    transform: scaleX(1.2);
+}
+.logo-flag{
+    display: none;
+}
+
+.sm-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+    background-color: #f8f8f8;
+    margin: auto;
+}
+}
 /* navigation css*/
 a{
    text-decoration: none;
    color: black;
-    font-weight: bolder;
+   font-weight: bolder;
 }
 a:active{
     color: #ffca42;
@@ -63,9 +93,10 @@ li{
     text-align: center;
     margin: auto;
     padding: 20px;
-    font-weight: 400px;
-    color: #88ff00;
+    font-weight: 2vw;
+    color: hwb(0 0% 100%);
     font-family: 'Poppins', sans-serif;
+    text-decoration: underline 5px #38B000;
 }
 section{
     
@@ -73,13 +104,14 @@ section{
 /* Animation */
 
 #animate{
-    animation: change-color 6s infinite;
-    font-weight: 900;
+    animation: change-color 3s infinite;
+    font-size: 4vw;
+
 
 }
 @keyframes change-color {
-    10% {  color: red; }
+    20% {  color: red; }
     50% {  color: gold; }
-    100% { color: green; }
+    80% { color: green; }
 }
 
